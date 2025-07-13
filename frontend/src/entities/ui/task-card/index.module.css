@@ -1,0 +1,25 @@
+.container {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 100%;
+  width: calc(100% - 20px); /* Учитываем margin и padding */
+  box-sizing: border-box; /* Учитываем padding в общей ширине */
+  border-bottom: 2px solid #bebebe;
+  overflow: hidden;
+}
+
+.title{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    margin-bottom: 8px;
+}
+.content{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0;
+    margin-bottom: 8px;
+}

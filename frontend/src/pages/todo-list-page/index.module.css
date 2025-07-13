@@ -1,0 +1,60 @@
+.pageContainer {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden; 
+}
+
+.contentContainer {
+  display: flex;
+  flex: 1;
+  gap: 20px;
+  min-height: 0; 
+}
+
+.markdownPreview {
+  flex: 2;
+  padding: 20px;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow: auto;
+}
+
+.titleInput {
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.editArea {
+  width: 100%;
+  min-height: 300px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  resize: vertical;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.editButton {
+  margin-top: 20px;
+}
+.addButton {
+  margin-bottom: 15px;
+  background-color: #52c41a; /* Зеленый цвет для кнопки добавления */
+  border-color: #52c41a;
+}
+
+.searchInput {
+  margin-bottom: 15px;
+}

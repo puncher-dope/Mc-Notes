@@ -1,0 +1,41 @@
+
+.taskCardContainer {
+  flex: 1;
+  overflow: hidden;
+  max-width: 300px;
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 20px); 
+}
+
+.cardsWrapper {
+  overflow-y: auto;
+  flex: 1;
+  padding-right: 10px;
+  margin-right: -10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.addButton:hover {
+  background-color: #73d13d;
+  border-color: #73d13d;
+}
+.taskCardWrapper {
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+  width: 100%;
+  box-sizing: border-box;
+  
+}
+
+.taskCardWrapper:hover {
+  transform: translateX(5px);
+}
+
+.taskCardWrapper.selected {
+  background-color: #f0f0f0;
+  border-left: 3px solid #1890ff;
+  padding-left: 5px;
+}

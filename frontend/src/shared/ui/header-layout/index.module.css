@@ -1,0 +1,16 @@
+.logoutBtn{
+    width: 50px;
+    height: 32px;
+    font-size: smaller;
+    margin-left: auto;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
